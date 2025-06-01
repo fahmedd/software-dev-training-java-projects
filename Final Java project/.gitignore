@@ -1,0 +1,9 @@
+# From exlipse. Not sure but might be system dependent.
+/target
+
+# From exlipse. Not sure but might be system dependent.
+/.settings
+/.vscode
+# From exlipse. Not sure but might be system dependent.
+.classpath
+.project

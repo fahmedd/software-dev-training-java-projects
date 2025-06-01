@@ -1,0 +1,20 @@
+-- Add One Admin User
+INSERT INTO users (user_id, username, password, type ) VALUES (1, 'superUser1','superUser1','admin');
+
+-- ADD Movies
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (1, 'The Dark Knight','https://image.tmdb.org/t/p/w500/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg', 4.3, 'Christopher Nolan', '2008-07-16', 'Action');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (2, 'The Shawshank Redemption','https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg', 3.3, 'Frank Darabont', '1994-09-23', 'Drama');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (3, 'The Godfather','https://image.tmdb.org/t/p/w500/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg', 4.8, 'Francis Ford Coppola', '1972-03-14', 'Crime');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (4, 'The Godfather: Part II','https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg', 4.2, 'Francis Ford Coppola', '1974-12-20', 'Crime');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (5, 'The Dark Knight Rises','https://image.tmdb.org/t/p/w500/vzvKcPQ4o7TjWeGIn0aGC9FeVNu.jpg', 4.3, 'Christopher Nolan', '2012-07-16', 'Action');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (6, 'The Lord of the Rings: The Return of the King','https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg', 4.5, 'Peter Jackson', '2003-12-01', 'Adventure');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (7, 'The Lord of the Rings: The Fellowship of the Ring','https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg', 4.5, 'Peter Jackson', '2001-12-18', 'Adventure');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (8, 'The Lord of the Rings: The Two Towers','https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg', 4.5, 'Peter Jackson', '2002-12-18', 'Adventure');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (9, 'The Matrix','https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg', 4.3, 'Lana Wachowski', '1999-03-30', 'Action');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (10, 'The Departed','https://image.tmdb.org/t/p/w500/81d8oyEFgj7FlxJqSDXWr8JH8kV.jpg', 4.3, 'Martin Scorsese', '2006-10-05', 'Crime');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (11, 'The Green Mile','https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg', 4.3, 'Frank Darabont', '1999-12-10', 'Crime');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (12, 'The Prestige','https://image.tmdb.org/t/p/w500/2Fk3AB8E9dYIBc2ywJkxk8BTyhc.jpg', 4.3, 'Christopher Nolan', '2006-10-19', 'Drama');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (13, 'The Lion King','https://image.tmdb.org/t/p/w500/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg', 4.3, 'Roger Allers', '1994-06-23', 'Animation');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (14, 'The Avengers','https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg', 4.3, 'Joss Whedon', '2012-04-25', 'Action');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (15, 'Shazam! Fury of the Gods','https://m.media-amazon.com/images/M/MV5BMzk4NzI3M2YtNTU0Zi00NDU3LTgxYTUtOWY0NmZiMzU5MzlhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg', 4.3, 'David F. Sandberg', '2023-03-17', 'Action');
+INSERT INTO movies (movie_id, name, image, rating, director, release_date, genre ) VALUES (16, 'Avatar: The Way of Water','https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg', 4.3, 'James Cameron', '2022-12-16', 'Adventure');
