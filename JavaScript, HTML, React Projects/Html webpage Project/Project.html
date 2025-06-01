@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta tag  makes the page match the screen's width 
+    in device-independent pixels -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="Project.css" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mirza:wght@600&display=swap" rel="stylesheet">
+<script src="Project.js" defer></script>
+
+<title>Animal Welfare Charity | RSPCA</title>
+</head>
+
+<body>
+
+<!-- Create a container div for the grid -->
+<div class="grid-container">
+
+  <!-- row 1 , header-->
+  <header id="item1">
+    <div class="header-container">
+        <img id= "logo" src="RSPCA_Logo_Big.png" />
+
+        <h1 id="Companyname">Animal Welfare Charity</h1>
+
+        <div class="collapsible-menu">
+          <nav class="menuitems">
+            <a class="menuitem" href="a">Get Involved<i class='bx bx-chevron-down'></i></a>
+            <a class="menuitem" href="a">About Us<i class='bx bx-chevron-down'></i></a>
+            <a class="menuitem" href="a">Shop<i class='bx bx-chevron-down'></i></a>
+          </nav>
+        </div>
+
+        <div class="nav-buttons"> 
+            <input id="Search" type="text"/>
+            <i class='bx bx-search bx-sm'></i>
+            <input id="Donate-button" type ="button" value="Donate" onclick="Donation()">
+        </div>
+
+        <button id="burger"> <i class='bx bx-menu'></i> </button>
+
+  
+          <nav id="items">
+            <a class="item" href="a">Get Involved<i class='bx bx-chevron-down'></i></a>
+            <a class="item" href="a">About Us<i class='bx bx-chevron-down'></i></a>
+            <a class="item" href="a">Shop<i class='bx bx-chevron-down'></i></a>
+          </nav>
+    </div>
+
+    </header>
+
+    <!--row 2 banner-->
+  <div id="item2">
+    <div class="bannerImg-contanier">
+      <img id="bannerimg" src="mca-rspca-puppy.jpg">
+      <div class="middleText-banner">
+        <h2>Rehome a rescued pet</h2>
+        <p> We are doing our best to try and rehome as many animals this Christmas</p>
+        <a href=@ >Find out how to help</a>
+      </div>
+    </div>
+  
+  </div>
+
+    <!--row 3 -->
+  <div id="item3">
+    <div class="ourWork-container"> 
+      <img id="whatwedoimg" src="kitten.jpg">
+      <div class="ourWork-text">
+        <h3 id="ourWork">Our Work</h3>
+      </div>
+  </div>
+  </div> 
+  <div id="item4">
+    <div class="fundraise-container">
+      <img id="fundraisingimg" src= "cropped-kitten.jpg">
+      <div class="fundraise-text">
+        <h3 id="fundraise">Fundraising</h3>
+      </div> 
+    </div>
+
+  </div>
+
+  <!--row 4 news-->
+  <div id="item5">
+    <div class="news-container">
+      <h2 id="news">News</h2>
+        <ul class="newsitem1">
+          <li id="newsitem1-h"><a  href= @>£5,078 raised in this years sponsored autumn walk</a></li>
+          <p> 10th October <span id="newsitem1-Yr">2022</p></span>
+        </ul>
+        <ul class="newsitem2">
+          <li id="newsitem2-h"><a href= @>RSPCA appeal after tortured kitten
+            found with multiple burns and head injuries</a></li>
+          <p> 2nd December <span id="newsitem2-Yr">2022</p></span>
+        </ul>
+        <ul class="newsitem3">
+          <li id="newsitem3-h"><a href= @>Man jailed for 22 weeks for illegal dog
+              breeding after 41 animals seized from South Hampshire</a></li>
+          <p> 28th November <span id="newsitem3-Yr">2022</p></span>
+        </ul>
+    </div>
+  </div>
+
+  <!--row 4 news banner-->
+  <div id="item6">
+    <div class="news1-container">
+      <h3><a id="news1" href="@">New figures reveal increase in <br>animal
+         cruelty since start of the pandemic </a></h3>
+      <img id="newsimg1" src= "black_lab.jpg">
+      <p id="news1-para">An alarming 16% increase in the number of reports of cruelty to animals
+        to animals in one year.<br>
+        <br>
+         New figures released today as part of the animal welfare charity's 
+         Cancel Out Cruelty campaign show that despite being man's best friend,
+        92,244 dogs were reported to the RSPCA last year as victims of cruelty.
+      </p>
+    </div>
+  </div>
+
+  <div id="item7">
+    <div class="news2-container">
+      <h3><a id="news2" href="@">RSPCA animal rescuer reunited <br>
+      with dog he saved</a></h3>
+      <img id="newsimg2" src= "rspca-dog.jpg">
+      <p id="news2-para">
+        A dog who was rescued from neglect by the RSPCA has been reunited 
+        with his rescuer as he gets ready to spend Christmas alongside his new family.<br>
+        <br>
+        By the time he was rescued, it was too late to save his ear but the RSPCA
+         managed to save his life, and now he&apos;s finally getting the love he deserves with his new family.
+      </p>
+    </div>
+  </div>
+
+  <!--row 5 events-->
+  <div id="item8">
+    <h2 id="upcomingevents">Upcoming Events<i class='bx bx-chevron-down'></i></h2>
+  </div>  
+  <div id="item9">
+    <ul id="ul-blackpool">
+      <img id="blackpoolimg" src="sponsored-walk.webp">
+      <a id="hike" href="@">Sponsored hike through Blackpool is a success! </a>
+    </ul>
+    <ul class="ul-blackpoolYr"> 
+      <p id="blackpoolDate">18th June <span id="hikeYr">2023</span></p>
+    </ul>
+  </div>
+  <div id="item10">
+    <ul id="ul-riverThames">
+      <img id="riverThamesimg" src="river-thames.jpg">
+      <a id="riverThames" href="@">Fund raising on the banks of the River Thames </a>
+    </ul>
+    <ul class="ul-riverThamesYr"> 
+      <p id="riverThamesDate"> 20th July <span id="riverThamesYr">2023 </span></p>
+    </ul>
+  </div>
+
+  <!--footer icons-->
+  <footer id="item11">
+    <div class="footer-container bx-sm" >
+      <div class="SocialMediaIcon bx-sm">
+          <i class='bx bxl-facebook-square bx-sm bx-tada-hover'></i>
+          <i class='bx bxl-twitter bx-sm bx-tada-hover'></i>
+          <i class='bx bxl-instagram bx-sm bx-tada-hover'></i>
+          <i class='bx bxl-youtube bx-sm bx-tada-hover'></i>
+      </div>
+      
+    <!--footer info-->
+      <div class="footerinfo">
+        <table class="footer-tble">
+          <tr>
+            <th>Get In Touch</th>
+            <th>More From Us</th>
+          </tr>
+          <tr>
+            <td><a href=@ >Contact Us</a></td>
+            <td><a href=@ >What we do</a></td>
+          </tr>
+          <tr>
+            <td><a href=@ >Jobs</a></td>
+            <td><a href=@ >Our organisation</a></td>
+          </tr>
+          <tr>
+            <td><a href=@ >Volunteering</a></td>
+            <td><a href=@ >Information and Support</a></td>
+          </tr>
+          <tr>
+            <td><a href=@ >Fundraise</a></td>
+            <td><a href=@ >Shop</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer-button">
+          <input id="Donate-button2" type ="button" value="Donate" onclick="Donation()">
+      </div>
+    </div>
+  </footer> 
+  
+</div>
+
+</body>
+</html>

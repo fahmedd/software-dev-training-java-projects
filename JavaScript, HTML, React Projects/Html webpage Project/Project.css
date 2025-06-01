@@ -1,0 +1,401 @@
+/* This sets up the 12-column grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    background-color: rgb(27, 12, 100);
+    grid-gap: 30px;
+    padding: 5px;
+    width: 80%; 
+    margin: auto;
+  }
+  
+  /* General styling */
+  header, footer {
+    background-color: rgb(255, 255, 255); 
+   
+  }
+
+body {
+    background-color:rgb(198 198 218);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*row 1- Header*/
+header img { 
+    height: 10vh;
+    margin-left: 5%;
+  }
+
+
+.header-container {
+    display: grid;
+    grid-template-columns: 0.7fr 0.8fr 1.8fr 1.7fr;
+    align-items: center;
+}
+
+/*row 1-logo and Menu*/
+.menuitems {
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: space-between;
+padding: 0.5%;
+font-size: 20px;
+}
+
+#Companyname {
+    display:inline;
+    font-size: 1.4em;
+    margin-left: 30%;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+#Search {
+    display: none;
+} 
+
+#Donate-button {
+font-size: 100%;
+padding: 2.0%;
+border-radius: 10%;
+}
+
+#Donate-button:hover {
+    color:rgb(255, 255, 255);
+    background-color:rgb(22, 22, 152);
+}
+
+/* Styling for hidden-hamburger nav */
+#items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    height: 100%;
+    z-index: 100;
+    padding: 10px;
+    gap: 10px;
+    display: none;
+  }
+
+  #burger{
+    width: 20%;
+    justify-self: center;
+    display:none;
+  }
+
+/*Row 2-- Banner*/
+
+#bannerimg{
+    width: 100%;
+    height: auto;
+  }
+
+.bannerImg-contanier {
+    background-color: white;
+}
+
+#bannerimg:hover{
+    opacity: 0.3;
+}
+
+.middleText-banner {
+    opacity: 0;
+    position: absolute; /*positioned relative to the nearest positioned parent container*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*epositions an element in the horizontal and/or vertical directions*/
+    text-align: center;
+  }
+
+
+.bannerImg-contanier:hover #bannerimg {
+  opacity: 0.3;
+}
+
+.bannerImg-contanier:hover .middleText-banner {
+  opacity: 1;
+}
+
+/*Row 3*/
+#whatwedoimg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.ourWork-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+
+
+#fundraisingimg {
+    width: 100%;
+    display: flex;
+    opacity: 0.9;
+}
+
+.ourWork-container, .fundraise-container {
+    position: relative;
+}
+
+
+.fundraise-text, .ourWork-text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    color: white;
+    font-size: 2em;
+}
+
+
+
+/*Row 4*/
+
+#item5, #item6, #item7 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.news-container, .news1-container, .news2-container{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column; /*how flex items are placed in the flex container*/
+    align-items: center;
+}
+
+#news{
+    font-size: 1.5em;
+}
+.newsitem1, .newsitem2, .newsitem3 {
+    list-style: none;
+    padding: 0px;
+    margin-top: 4.0%;
+    margin-bottom: 4.0%;
+    margin-left: 4.0%;
+}
+
+.news-container, .news2-container{
+    height: 100%;
+}
+
+#newsitem1-h, #newsitem2-h, #newsitem3-h {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#newsimg1 {
+        width: 20vw;
+        height: 20vh;
+}
+
+#newsimg2 {
+    width: 20vw;
+    height: 20vh;
+}
+
+#news2-para, #news1-para {
+    font-size: 1.2em;
+}
+
+
+#newsitem3-Yr, #newsitem2-Yr, #newsitem1-Yr {
+    font-weight: bold;
+}
+
+
+/*row 5*/
+#upcomingevents {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 1.0%;
+    text-align: center;
+}
+
+#ul-blackpool,#ul-riverThames {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.ul-blackpoolYr, .ul-riverThamesYr {
+    margin: auto;
+    text-align: center;
+}
+
+#blackpoolDate, #riverThamesDate {
+    color: rgb(255, 255, 255);
+}
+
+
+#blackpoolimg, #riverThamesimg{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    margin-bottom: -10%;
+    margin-left: -20%;
+}
+
+#hike, #riverThames:link {
+    font-size: 1.2em;
+    color:rgb(255, 255, 255);
+
+  }
+
+#hike:hover {
+    font-size: 1.2em;
+    color:rgb(38, 175, 255);
+  }
+
+#riverThames:hover {
+    font-size: 1.2em;
+    color:rgb(38, 175, 255);
+  }
+
+#riverThamesYr, #hikeYr {
+    font-weight: bold;
+}
+
+
+/*Footer - row 6*/
+
+.SocialMediaIcons{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+#footerinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#footer1 {
+    display: grid;
+    align-items: center;
+}
+
+#Donate-button2 {
+    font-size: 75%;
+    padding: 4.0%;
+    border-radius: 10%;
+}
+
+#Donate-button2:hover {
+    color:rgb(255, 255, 255);
+    background-color:rgb(22, 22, 152);
+}
+
+.footer-tble {
+    font-size: 0.7em;
+}
+
+/* END OF MAIN STYLING */
+/*   */
+/*  Media Query Overide Mobile  */
+/*  Media Query Overide Mobile  */
+
+@media only screen and (max-width:599px)
+{
+}
+
+
+  /* Styling the widths of individual divs */
+  /* First row */
+  #item1 {grid-column: 1/11;}
+  
+  /* Second row */
+  #item2 {grid-column: 1/11;}
+
+  /*third row*/
+  #item3 {grid-column: 1/8;}
+  #item4 {grid-column: 8/11;}
+  
+  /* forth row */
+  #item5 {grid-column: 1/7;}
+  #item6 {grid-column: 7/9;}
+  #item7 {grid-column: 9/11;}
+  
+  /* fifth row */
+  #item8 {grid-column: 1/11;}
+
+  /* sixth row */
+  #item9 {grid-column: 1/11;}
+
+  /* seventh row */
+  #item10 {grid-column: 1/11;}
+
+  /* final row */
+  #item11 {grid-column: 1/11;}
+
+
+
+/* can also do--anything that must be hidden in desktop sive- apply this class to it
+  .hidedesktop{
+    display: none;
+  }
+/* Mobile Styles */
+
+
+      @media only screen and (max-width: 740px) {
+        #item1, #item2, #item3, #item4, #item5,#item6,
+        #item7,#item8, #item9, #item10,#item11
+        {
+        grid-column: 1/11;
+      }
+       }
+
+       @media (max-width: 740px){
+            .footer-container{
+                gap: 0px;
+            }
+            #item9 a, #item10 a{
+                margin-left: 10%;
+            }
+
+            #newsimg1 {
+                width: 50vw;
+            }
+
+            #newsimg2 {
+                width: 45vw;}
+        }
+
+       @media (max-width: 1000px){
+        .collapsible-menu{
+            display: none;
+        }
+
+        #burger{
+            display:block;
+        }
+        /* hides the nav bar */
+   }

@@ -1,0 +1,34 @@
+/* Academy cards*/
+.card {
+    width: 18rem;
+    box-shadow: 5px 5px 5px #9e9b9b;
+    margin: 10px;
+
+
+}
+
+.AcademyCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.academyCard-body {
+    height: 160px;
+}
+
+.academyH1{
+    margin-top: 20px;
+    font-family: ui-rounded;
+}
+
+/* Add academy button link colour*/
+.link {
+    color: #FFF;
+}
+
+.link:hover {
+    color: rgb(4, 134, 148)
+}

@@ -1,0 +1,17 @@
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .CompanyName {
+    color: #f2f2f2;
+  }
+
+  .topnav a:hover{
+    color: rgb(4, 50, 148)
+  }

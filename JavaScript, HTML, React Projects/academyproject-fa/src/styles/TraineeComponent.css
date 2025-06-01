@@ -1,0 +1,36 @@
+.card{
+    width: 18rem;
+    box-shadow: 5px 5px 5px #9e9b9b;
+    margin: 10px;
+
+}
+
+.card-body{
+    height: 260px;
+}
+
+.traineeCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.exam-link {
+    color: #FFF;
+}
+
+.exam-link:hover {
+    color: rgb(4, 50, 148)
+}
+
+.traineeH1{
+    margin-top: 20px;
+    font-family: ui-rounded;
+}
+
+.traineeH1{
+    margin-top: 20px;
+    font-family: ui-rounded;
+}

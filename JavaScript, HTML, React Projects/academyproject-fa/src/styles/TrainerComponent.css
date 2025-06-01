@@ -1,0 +1,19 @@
+.card{
+    width: 18rem;
+    box-shadow: 5px 5px 5px #9e9b9b;
+    margin: 10px;
+
+}
+
+.TrainerCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trainerH1{
+    margin-top: 20px;
+    font-family: ui-rounded;
+}

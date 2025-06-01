@@ -1,0 +1,11 @@
+.academyLink {
+    color: white;
+}
+
+.AcademyCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,39 @@
+This is a walkthrough for the Many to many relationship for Order and Item
+
+1. In the Runner, create the factory
+
+2. In the Item table, create the itemId and itemName. Create the Getters and Setters
+
+3. In the Order table, create the orderId and orderName. Create the Getters and Setters.
+
+4. If you run the Runner class then it should create the tables properly.
+
+5. In the Order entity, add this plus the getter and setter plus the JOINTABLE annotation:
+
+	@ManyToMany(cascade = CascadeType.PERSIST)
+	@JoinTable
+	(
+			name = "ORDER_ITEM", // join table name
+			joinColumns = @JoinColumn(name = "order_id"),      // PK in this table
+			inverseJoinColumns = @JoinColumn(name = "item_id") // PK in other table
+	)
+       private List<Item> listItems;
+
+6. In the Item entity add this:
+
+	@ManyToMany(mappedBy = "listItems")
+	private List<Order> listOrders;
+
+7. Run the Runner class again to create the tables with these additions. If it doesnt work, you will know where to look.
+
+
+8. Now in your Runner class, create some Orders and some Items.
+
+9. For each order we need to set a list of items. For example:
+
+	List<Item> listBigItems = new ArrayList<Item>(Arrays.asList(item1, item2));
+	order1.setListItems(listBigItems);
+
+	List<Item> listSmallItems = new ArrayList<Item>(Arrays.asList(item1));
+	order2.setListItems(listSmallItems);
+
